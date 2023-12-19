@@ -71,7 +71,8 @@ Publish the website in the given URL.
       <div>
         <input type="button" value="00" onclick="display.value += '00' ">
         <input type="button" value="0" onclick="display.value += '0' ">
-        <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator">
+        <input type="button" value="=" onclick="display.value = eval(display.value)"
+        class="equal operator">
        
       </div>
     </form>
