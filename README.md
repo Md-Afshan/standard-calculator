@@ -163,7 +163,7 @@ function calculate() {
 ```
 
 ## OUTPUT
-![Alt text](ex08.1.png):
+![Alt text](ex08.1.png)
 ![Alt text](ex08.2.png)
 ![Alt text](ex08.3.png)
 ## Result:
