@@ -45,7 +45,8 @@ Publish the website in the given URL.
       </div>
       <div>
         <input type="button" value="AC" onclick="display.value = '' " class="operator">
-        <input type="button" value="DE" onclick="display.value =  display.value.toString().slice(0,-1)" class="operator">
+        <input type="button" value="DE" onclick="display.value =  display.value.toString()
+        .slice(0,-1)" class="operator">
         <input type="button" value="." onclick="display.value += '.' " class="operator">
         <input type="button" value="/" onclick="display.value += '/' " class="operator">
       </div>
@@ -110,7 +111,8 @@ Publish the website in the given URL.
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px
+    rgba(0, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
     color: yellow;
